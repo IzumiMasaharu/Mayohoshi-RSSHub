@@ -709,7 +709,7 @@ const calculateValue = () => {
             bypassCdn: toBoolean(envs.PIXIV_BYPASS_CDN, false),
             bypassCdnHostname: envs.PIXIV_BYPASS_HOSTNAME || 'public-api.secure.pixiv.net',
             bypassCdnDoh: envs.PIXIV_BYPASS_DOH || 'https://1.1.1.1/dns-query',
-            imgProxy: envs.PIXIV_IMG_PROXY || 'https://pixivproxy.mayohoshi.com',
+            imgProxy: 'https://pixivproxy.mayohoshi.com',
         },
         pkubbs: {
             cookie: envs.PKUBBS_COOKIE,
